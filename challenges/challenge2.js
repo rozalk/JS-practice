@@ -18,7 +18,6 @@ if (value > 0) {
     } else {
       alert("Number is neither multiple of 3 and 7 ");
     }
-    gti;
   }
 } else {
   alert("Enter a positive number");
