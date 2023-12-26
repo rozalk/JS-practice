@@ -1,4 +1,6 @@
 //Write a function to calculate compound interest based on the principle amount
+
+//taking prompt from user...
 const principal = Number(prompt("Enter principal amount"));
 
 const rate = Number(prompt("Enter rate of interest"));
@@ -10,9 +12,10 @@ const no_interest = Number(
 );
 
 const compoundInterest = (p, t, r, n) => {
-  const amount = p * Math.pow(1 + r / n, n * t);
+  //arrow functions...
+  const amount = p * Math.pow(1 + r / n, n * t); //compound interest formula...
   return amount;
 };
 const result = compoundInterest(principal, time, rate, no_interest);
 alert(`Compount Interest Amount is :${result}`);
-//jgjgng
+console.log(result);
