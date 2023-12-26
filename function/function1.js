@@ -7,6 +7,7 @@ if (number > 0) {
   const reverseNumber = (number) => {
     //arrow function...
     let reversedNum = 0; //initializing variable ES6...
+    console.log(reverseNum);
     while (number > 0) {
       const unit = number % 10;
       reversedNum = reversedNum * 10 + unit;
