@@ -27,3 +27,4 @@ if (str >= 0 || str < 0) {
   }
   alert(`Vowels are: ${count}`);
 }
+//ok

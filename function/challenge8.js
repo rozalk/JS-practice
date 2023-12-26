@@ -15,3 +15,4 @@ const compoundInterest = (p, t, r, n) => {
 };
 const result = compoundInterest(principal, time, rate, no_interest);
 alert(`Compount Interest Amount is :${result}`);
+//jgjgng
