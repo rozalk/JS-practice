@@ -9,3 +9,4 @@ const squareNumber = (num) => {
 
 const result = squareNumber(number); //function call..
 alert(`Square of given number is : ${result}`);
+console.log(result); //for console output...
